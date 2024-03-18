@@ -1,7 +1,4 @@
 # macOS SETTINGS
-Info on all the apps / tools / settings used on my Mac.
-<br>
-
 ## SYSTEM PREFERENCES
 ### CONTROL CENTER
 - Wifi: Show in Menu Bar
@@ -81,8 +78,9 @@ Info on all the apps / tools / settings used on my Mac.
 ### HOMEBREW
 [Homebrew](https://brew.sh/) is dubbed as the missing macOS package manager and allows us to install tools and apps from the command line.
 
-- It can be installed by using the command on the brew homepage. *It will also install Apple's 'Xcode' tools as a dependency.*
-- Once Installed, run the following commands to install all casks (applications) and formulae (cli tools):
+- It can be installed by using the command on the brew homepage. *It will also install Apple's 'Command Line Tools for Xcode' as a dependency.*
+- Download the `txt` files inside the `brew` folder of this repo
+- Run the following commands to install all casks (applications) and formulae (cli tools):
 
 ```sh
 xargs brew install < brew_casks.txt
