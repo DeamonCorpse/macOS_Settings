@@ -13,7 +13,7 @@
 - Battery: Show in Control Center
 - Fast User Switching: Show in Control Center
 - Keyboard Brightness: Show in Control Center
-- **Menu Bar Only**
+- Menu Bar Only:
   - Spotlight: Don't Show in Menu Bar
   - Siri: Don't Show in Menu Bar
   - Time Machine: Show in Menu Bar
@@ -30,7 +30,7 @@
 - Automatically Hide & SHow the Dock: On
 - Animate Opening Applications: On
 - Show Indicators for Open Applications: On
-- **Desktop & Stage Manager**
+- Desktop & Stage Manager:
   - Show Items
     - On Desktop -> On
   - Click wallpaper to reveal desktop -> Only in Stage Manager
@@ -39,34 +39,43 @@
     - Widget Style: Full Color
     - Use iPhone Widgets: On
   - Default Web Browsere: Arc
-  - **Windows**
+  - Windows:
     - Prefer Tabs when Opening Documents: Always
     - Ask to Keep Changes when CLosing Documents: On
     - Close Windows when Quitting an Application: On
   - **Mission Control**
     - Group Windows by Application: On
-  - **Hot Corners**
+  - Hot Corners:
     - Top Left: ⌥ Start Screen Saver
     - Bottom Left: ⌥ Put Display to Sleep
     - Top Right: ⌥ Notification Center
     - Bottom Right: ⌥ Quick Note
 <br>
 
+### SCREEN SAVER
+- [Matrix](https://github.com/monroewilliams/MatrixDownload/)
+- Show on all Spaces: On
+<br>
+
+### GAME CENTER
+- Disabled
+<br>
+
 ## macOS APPLICATIONS
 ### FINDER SETTINGS
-- General
+- General:
   - Show these on the Desktop: External Disks
   - New Finder Windows Show: Downloads
   - Open Folders in Tabs Instead of New Windows: Checked
 - Tags: Evedrything Unchecked
 - Sidebar:
   - Checked: Applications, Downloads, Home iCloud Drive, Desktop, Hard Disks, External Disks, Cloud Storage, Bonjour Computers, Connected Servers
-- Advanced
+- Advanced:
   - Show all filename extensions: Checked
   - Show warning before changing an extension: Checked
   - Remove Items from the Trash After 30 Days: Checked
   - When Performing a Search: Search the Current Folder
-- View
+- View:
   * As List
   * Sort By: Name
   * Show Toolbar
@@ -77,8 +86,7 @@
 ## 3RD PARTY APPLICATIONS
 ### HOMEBREW
 [Homebrew](https://brew.sh/) is dubbed as the missing macOS package manager and allows us to install tools and apps from the command line.
-
-- It can be installed by using the command on the brew homepage. *It will also install Apple's 'Command Line Tools for Xcode' as a dependency.*
+- Installed using the command on the brew homepage. *It will also install Apple's 'Command Line Tools for Xcode' as a dependency.*
 - Download the `txt` files inside the `brew` folder of this repo
 - Run the following commands to install all casks (applications) and formulae (cli tools):
 
@@ -88,35 +96,26 @@ xargs brew install < brew_formulae.txt
 ```
 <br>
 
-## RAYCAST (replacing quick launch)
+### RAYCAST - Replacing Spotlight
 *Raycast is installed as a cask by `homebrew`*<br>
-Quick Launch is replaced by [RayCast](https://www.raycast.com/).
+`Spotlight` is replaced by [RayCast](https://www.raycast.com/).
+- Disable `Spotlight` shortcut in Settings/Keyboard/Keyboard Shortcuts/Spotlight
 
+#### EXTENSIONS
+- [Apple Reminders](https://www.raycast.com/raycast/apple-reminders)
+- [Arc](https://www.raycast.com/the-browser-company/arc)
+- [Brew](https://www.raycast.com/nhojb/brew)
+- [CleanShot X](https://www.raycast.com/Aayush9029/cleanshotx)
+- [Raindrop.io](https://www.raycast.com/lardissone/raindrop-io)
+- [TinyPNG](https://www.raycast.com/kawamataryo/tinypng)
+- [Visual Studio Code](https://www.raycast.com/thomas/visual-studio-code)
+- [Youtube](https://www.raycast.com/tonka3000/youtube)
+<br>
+
+### AMETHYST - Window Management
 
 <hr>
 <hr>
-
-
-
-### RayCast Homebrew Plugin
-
-Install the [RayCast Homebrew Plugin](https://www.raycast.com/nhojb/brew) so we can easily install formulae and casks directly from RayCast.
-
-## Window Management
-
-I know this feature is built in to a lot of other operating systems, but it is not built in to a Mac, so we need an app for it.
-
-RayCast has this feature built in, but I am still using a separate app for this.
-
-I use [rectangle](https://rectangleapp.com/) to move and resize windows using keyboard shortcuts. I used to use [spectacle](https://www.spectacleapp.com/), but rectangle is more regularly maintained and allows me to use all of the same keyboard shortcuts as spectacle.
-
-I highly recommend installing this and memorizing the keyboard shortcuts. Fluid and seamless window management is key to being productive while coding.
-
-Search for `rectangle` in RayCast `brew search` or:
-
-```
-brew install rectangle
-```
 
 ## App Switching
 
