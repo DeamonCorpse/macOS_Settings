@@ -1,1 +1,16 @@
-
+1password
+adobe-acrobat-reader
+amethyst
+cheatsheet
+drawio
+iterm2
+itsycal
+joplin
+menubar-stats
+notion
+raindropio
+raycast
+spotify
+synology-drive
+visual-studio-code
+yubico-authenticator
