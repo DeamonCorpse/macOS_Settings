@@ -1,5 +1,6 @@
 # macOS SETTINGS
 Info on all the apps / tools / settings used on my Mac.
+<br>
 
 ## SYSTEM PREFERENCES
 ### CONTROL CENTER
@@ -22,6 +23,7 @@ Info on all the apps / tools / settings used on my Mac.
   - VPN: Show in Menu Bar
 - Automaticallt Show & Hide the Menu Bar: In Full Screen Only
 - Recent Docs, Apps & Servers: 5
+<br>
 
 ### DESKTOP & DOCK
 - Position on Screen: Bottom
@@ -51,62 +53,51 @@ Info on all the apps / tools / settings used on my Mac.
     - Bottom Left: ⌥ Put Display to Sleep
     - Top Right: ⌥ Notification Center
     - Bottom Right: ⌥ Quick Note
+<br>
 
-
-<hr>
-<hr>
-### Finder
-
-* Finder -> Preferences
-  * General -> Show these on the desktop -> Select None
-      * I try to keep my desktop completely clean.
-  * General -> New Finder windows show -> Home Folder
-      * I prefer to see my home folder in each new finder window instead of recent documents
-  * Advanced -> Show all filename extensions -> Yes
-  * Advanced -> Show warning before changing an extension -> No
-  * Advanced -> When performing a search -> Search the current folder
-* View
+## macOS APPLICATIONS
+### FINDER SETTINGS
+- General
+  - Show these on the Desktop: External Disks
+  - New Finder Windows Show: Downloads
+  - Open Folders in Tabs Instead of New Windows: Checked
+- Tags: Evedrything Unchecked
+- Sidebar:
+  - Checked: Applications, Downloads, Home iCloud Drive, Desktop, Hard Disks, External Disks, Cloud Storage, Bonjour Computers, Connected Servers
+- Advanced
+  - Show all filename extensions: Checked
+  - Show warning before changing an extension: Checked
+  - Remove Items from the Trash After 30 Days: Checked
+  - When Performing a Search: Search the Current Folder
+- View
+  * As List
+  * Sort By: Name
+  * Show Toolbar
+  * SHow Path Bar
   * Show Status Bar
-  * Show Path Bar
-  * Show Tab Bar
+<br>
 
-### Dock
+## 3RD PARTY APPLICATIONS
+### HOMEBREW
+[Homebrew](https://brew.sh/) is dubbed as the missing macOS package manager and allows us to install tools and apps from the command line.
 
-I don't use the Dock at all. It takes up screen space, and I can use RayCast to launch apps and AltTab to switch between apps. I make the dock as small as possible and auto hide it.
-
-* System Preferences
-  * Desktop & Dock
-    * Size -> Small as possible
-    * Position on screen -> Left
-    * Automatically hide and show the Dock -> Yes
-    * Animate opening applications -> No
-    * Show suggested and recent apps in the Dock -> No
-
-## Quick Launching
-
-The built in spotlight search is a bit slow for me and usually has web search results as the default instead of apps or folders on my machine.
-
-I recently switched from [Alfred](https://www.alfredapp.com/) to [RayCast](https://www.raycast.com/). I'm really liking it so far.
+- It can be installed by using the command on the brew homepage. *It will also install Apple's 'Xcode' tools as a dependency.*
+- Once Installed, run the following commands to install all casks (applications) and formulae (cli tools):
 
 ```sh
-brew install raycast
+xargs brew install < brew_casks.txt
+xargs brew install < brew_formulae.txt
 ```
+<br>
 
-## Homebrew
+## RAYCAST (replacing quick launch)
+*Raycast is installed as a cask by `homebrew`*<br>
+Quick Launch is replaced by [RayCast](https://www.raycast.com/).
 
-### Homebrew
 
-[Homebrew](https://brew.sh/) allows us to install tools and apps from the command line.
+<hr>
+<hr>
 
-To install it, open up the built in `Terminal` app and run this command:
-
-```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-This will also install the xcode build tools which is needed by many other developer tools.
-
-After Homebrew is done installing, we will use it (via RayCast) to install everything else we need.
 
 
 ### RayCast Homebrew Plugin
@@ -227,38 +218,13 @@ I use the following extensions to protect my privacy while browsing the web:
 
 ## Other Apps I Use Daily
 
-* android-file-transfer - Transfer files to / from my android phone
-* android-platform-tools - Installs `adb` without the need for the full android studio.
+
 * [keepingyouawake](https://keepingyouawake.app/) - Prevents my Mac from going to sleep when I'm presenting / live streaming
 * [discord](https://discord.com/) - Messaging / Community
-* [vlc](https://www.videolan.org/) - I use VLC to watch videos instead of the built in QuickTime.
-* [keka](https://www.keka.io/en/) - Can extract 7z / rar and other types of archives
-* [kap](https://getkap.co/) - Screen recorder / gif maker
-* [figma](https://www.figma.com/) - Image editor
 * [visual-studio-code](https://code.visualstudio.com/) - Code Editor
-* [sublime-text](https://www.sublimetext.com/) - Note taking (I know there are better apps...)
 
-You can install them in one go by placing them all into a text file and then running brew install:
 
-```
-android-file-transfer
-android-platform-tools
-keepingyouawake
-discord
-slack
-vlc
-keka
-kap
-time-out
-figma
-visual-studio-code
-sublime-text
-insomnia
-```
 
-```sh
-xargs brew install < apps.txt
-```
 
 ### Docker
 
