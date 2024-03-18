@@ -84,6 +84,8 @@
 <br>
 
 ## 3RD PARTY APPLICATIONS
+*Unless otherwise specified, all 3rd party applications are installed using `brew`*
+
 ### HOMEBREW
 [Homebrew](https://brew.sh/) is dubbed as the missing macOS package manager and allows us to install tools and apps from the command line.
 - Installed using the command on the brew homepage. *It will also install Apple's 'Command Line Tools for Xcode' as a dependency.*
@@ -113,57 +115,29 @@ xargs brew install < brew_formulae.txt
 <br>
 
 ### AMETHYST - Window Management
+<br>
+
+### MENU BAR
+#### [SYSTEM STATS](https://github.com/exelban/stats)
+- Widgets:
+  - Clock (Allows you to show many different timezones)
+    - Home: UTC -4
+    - Vancouver (Pacific): UTC -7
+    - Edmonton: UTC -6
+    - Winnipeg (Central): UTC -5
+    - Halifax (Atlantic): UTC -4
+    - Hanoi: UTC +7
+    - Seoul/Tokyo: UTC +9
+  *Disable System Clock*:
+    - System Settings/
+  - Disk
+  - RAM
 
 <hr>
 <hr>
 
-## App Switching
-
-The built in App switcher only shows application icons, and only shows 1 icon per app regardless of how many windows you have open in that app.
-
-I use an app switcher called [AltTab](https://alt-tab-macos.netlify.app/). It shows full window previews, and has an option to show a preview for every open window in all applications (even minimized ones).
-
-I replace the built-in `CMD+TAB` shortcut with AltTab.
-
-Search for `alt-tab` in RayCast `brew search` or:
-
-```sh
-brew install alt-tab
-```
-
-## Menu Bar Utilities
-
-### Hidden Bar
-
-If you have several apps running that have menu bar icons, [Hidden Bar](https://github.com/dwarvesf/hidden) will let you choose which ones should be hidden after a timeout. This cleans things up if you have a ton of background apps running.
-
-Search for `hiddenbar` in RayCast `brew search` or:
-
-```sh
-brew install hiddenbar
-```
-
-### System Stats Widgets
-
-I use [stats](https://github.com/exelban/stats) to see my network traffic, CPU temp / usage and RAM usage at a glance.
-
-In each widget, a key setting to look for is under "widget settings", choose "merge widgets into one".
-
-Search for `stats` in RayCast `brew search` or:
-
-```sh
-brew install stats
-```
-
-### Menu Bar Calendar
-
-I like to have a calendar in the menu bar that I can quickly look at. stats does not include one, so I found [itsycal](https://www.mowglii.com/itsycal/).
-
-```sh
-brew install itsycal
-```
-
-itsycal shows the date, so I hide the date in the system menu bar widget:
+#### [ITSYCAL](https://www.mowglii.com/itsycal/)
+Replaces the date in the menu bar and shows a calendar widget when clicked-on.
 
 * System Preferences
   * Dock & Menu Bar
@@ -171,17 +145,8 @@ itsycal shows the date, so I hide the date in the system menu bar widget:
           * Show Date -> Never
           * Show Day of Week -> No
 
-## Break Timer
 
-I use an app called [Time Out](https://www.dejal.com/timeout/).
 
-I have it setup to show:
-* 10 second micro break every 15 minutes
-* 5 minute long break every 60 minutes
-
-There is also a cross platform break timer call [Stretchly](https://hovancik.net/stretchly/). I have not used it but a lot of people have recommended it.
-
-## Web Browser
 
 ### Firefox
 
