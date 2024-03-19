@@ -114,7 +114,7 @@ xargs brew install < brew_formulae.txt
 - [Youtube](https://www.raycast.com/tonka3000/youtube)
 <br>
 
-### AMETHYST - Window Management
+### [AMETHYST](https://ianyh.com/amethyst/) - Window Management
 <br>
 
 ### MENU BAR
