@@ -1,8 +1,10 @@
 1password
 adobe-acrobat-reader
+airbuddy
 amethyst
 cheatsheet
 drawio
+elgato-stream-deck
 iterm2
 itsycal
 joplin
@@ -10,6 +12,7 @@ menubar-stats
 notion
 raindropio
 raycast
+setapp
 sf-symbols
 spotify
 synology-drive
