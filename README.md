@@ -166,18 +166,19 @@ Replaces the date in the menu bar and shows a calendar widget when clicked-on.
     - Show Event Location: Checked
 <br>
 
-<hr>
-<hr>
+### SHELL, TERMINAL [iTerm2](https://iterm2.com/) & VSC 
+#### ZSH
+Using the `brew` version of ZSH (`/opt/homebrew/bin/zsh`) which is kept more up-to-date than Apple's version.
 
-### TERMINAL [iTerm2](https://iterm2.com/)& SHELL
 #### ITERM2
 > *[Documentation](https://iterm2.com/documentation.html)*
-Settings are saved with this repository
+Settings are saved with this repository (com.googlecode.iterm2.plist).
 
-### Shell
+### [VISUAL STUDIO CODE(https://github.com/DeamonCorpse/VSC_Settings)
+<br>
 
-Mac now comes with `zsh` as the default [shell](https://en.wikipedia.org/wiki/Comparison_of_command_shells). I've switched to using this with [Oh My Zsh](https://ohmyz.sh/).
-
+<hr>
+<hr>
 ### ARC - Browser
 I use the following extensions to stay productive:
 
@@ -192,26 +193,15 @@ I use the following extensions to protect my privacy while browsing the web:
   * Firefox now includes tracker blocking, but I leave Privacy Badger enabled.
 * [Decentraleyes](https://decentraleyes.org/)
   * Caches CDN links locally and intercepts requests to serve from the cache. Prevents CDNs from tracking you across websites.
+<br>
 
-
-
-
-#### Load dotfiles
-
-All my dotfiles are stored on [github](https://github.com/w3cj/dotfiles).
-
-I clone this repo to my machine and copy the files into my home directory.
-
-### Github SSH Setup
-
-* Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to setup an ssh key for github
-* Follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) to add the ssh key to your github account
-
-
-
-
-## VS Code
-
-VS Code is my preferred code editor.
-
-You can view all of my VS Code settings / extensions [here](https://github.com/CodingGarden/vscode-settings).
+### SETAPP APPLICATIONS
+The following apps are installed through setapp:
+- Airbuddy: Monitor your wireless devices
+- Bartender: Personalize your menu bar
+- CleanMyMac X: Speed up and decluter your Mac
+- CleanShot X: Take better screen shots and GIFs
+- Forklift: Manage files across servers
+- Sip: Pick colors for your designs
+- PDF Squeezer: Compress PDFs without quality loss
+<br>
