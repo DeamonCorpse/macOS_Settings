@@ -1,6 +1,5 @@
 1password
 adobe-acrobat-reader
-airbuddy
 amethyst
 cheatsheet
 drawio
