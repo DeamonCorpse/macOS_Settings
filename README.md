@@ -194,6 +194,8 @@ I use the following extensions to protect my privacy while browsing the web:
 * [Decentraleyes](https://decentraleyes.org/)
   * Caches CDN links locally and intercepts requests to serve from the cache. Prevents CDNs from tracking you across websites.
 <br>
+<hr>
+<hr>
 
 ### SETAPP APPLICATIONS
 The following apps are installed through setapp:
@@ -204,4 +206,13 @@ The following apps are installed through setapp:
 - Forklift: Manage files across servers
 - Sip: Pick colors for your designs
 - PDF Squeezer: Compress PDFs without quality loss
+<br>
+
+## MISC
+### Fonts
+The fonts I usually install on my system are located [here](https://github.com/DeamonCorpse/fonts).
+<br>
+
+### Wallpapers
+The wallpapers I usually used on my system are located [here](https://github.com/DeamonCorpse/Wallpapers).
 <br>
