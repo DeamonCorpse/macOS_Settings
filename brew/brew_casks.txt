@@ -4,6 +4,7 @@ amethyst
 cheatsheet
 drawio
 elgato-stream-deck
+iina
 iterm2
 itsycal
 joplin
